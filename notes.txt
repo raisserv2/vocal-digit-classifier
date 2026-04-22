@@ -1,0 +1,25 @@
+0_speaker1_0.wav ---> 50 of them
+0_speaker2_0.wav ---> 50 of them
+.
+.
+.
+0_speaker6_0.wav ---> 50 of them
+
+for 10 digits
+= 3000 total
+
+
+general overview:
+
+speaker1 - loud indian guy
+speaker2 - american accent, nice sound, but some numbers in a open echoey room type
+speaker3 - australian accnt
+speaker4 - random, very unclear, dosent even sound the like the number, very noisy background(static tv noise), 2 was very bad for instance 
+speaker5 - most are very low voice and very quick
+speaker6 - wierd guy, differing sonuds, some loud some low
+
+some have different sound levels, some are louder, some are lower, some dont even finsih properly
+
+test on speaker 6, train on speakers 1–5. Speaker 6 is the "weird guy with differing sounds."
+So your test set is going to be legitimately hard, and test accuracy will likely be meaningfully lower than validation accuracy.
+That's not a bug in your model — that's the nature of the task.
